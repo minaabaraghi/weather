@@ -9,11 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.font()
     }
+    
+    func font(){
+        for family in UIFont.familyNames{
+            let  sname :String = family
+            print ("family : \(sname)")
+            for name in UIFont.fontNames(forFamilyName: sname){
+                print(" name : \(name)")
+            }
+            
+        }
+    }
+    
 
 
 }

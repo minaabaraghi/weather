@@ -12,6 +12,7 @@
 		5AA85D2B240177C50094BC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D29240177C50094BC4F /* Main.storyboard */; };
 		5AA85D2D240177C60094BC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D2C240177C60094BC4F /* Assets.xcassets */; };
 		5AA85D30240177C60094BC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D2E240177C60094BC4F /* LaunchScreen.storyboard */; };
+		5AC4E221240186B60044F337 /* sofiapro-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4E220240186B60044F337 /* sofiapro-light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5AA85D2C240177C60094BC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA85D2F240177C60094BC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AA85D31240177C60094BC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC4E220240186B60044F337 /* sofiapro-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofiapro-light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		5AA85D3D240183470094BC4F /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				5AC4E220240186B60044F337 /* sofiapro-light.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA85D30240177C60094BC4F /* LaunchScreen.storyboard in Resources */,
+				5AC4E221240186B60044F337 /* sofiapro-light.otf in Resources */,
 				5AA85D2D240177C60094BC4F /* Assets.xcassets in Resources */,
 				5AA85D2B240177C50094BC4F /* Main.storyboard in Resources */,
 			);
