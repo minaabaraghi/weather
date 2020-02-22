@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5AA85D24240177C50094BC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA85D23240177C50094BC4F /* AppDelegate.swift */; };
-		5AA85D28240177C50094BC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA85D27240177C50094BC4F /* ViewController.swift */; };
 		5AA85D2B240177C50094BC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D29240177C50094BC4F /* Main.storyboard */; };
 		5AA85D2D240177C60094BC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D2C240177C60094BC4F /* Assets.xcassets */; };
 		5AA85D30240177C60094BC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA85D2E240177C60094BC4F /* LaunchScreen.storyboard */; };
 		5AC4E221240186B60044F337 /* sofiapro-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4E220240186B60044F337 /* sofiapro-light.otf */; };
+		5AC4E22324018E7B0044F337 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E22224018E7B0044F337 /* WeatherViewController.swift */; };
+		5AC4E22524018EE00044F337 /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E22424018EE00044F337 /* SearchCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AA85D20240177C50094BC4F /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA85D23240177C50094BC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AA85D27240177C50094BC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AA85D2A240177C50094BC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AA85D2C240177C60094BC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA85D2F240177C60094BC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AA85D31240177C60094BC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC4E220240186B60044F337 /* sofiapro-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofiapro-light.otf"; sourceTree = "<group>"; };
+		5AC4E22224018E7B0044F337 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		5AC4E22424018EE00044F337 /* SearchCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 		5AA85D3B240182B40094BC4F /* Viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
-				5AA85D27240177C50094BC4F /* ViewController.swift */,
+				5AC4E22424018EE00044F337 /* SearchCityViewController.swift */,
+				5AC4E22224018E7B0044F337 /* WeatherViewController.swift */,
 			);
 			path = Viewcontroller;
 			sourceTree = "<group>";
@@ -195,8 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA85D28240177C50094BC4F /* ViewController.swift in Sources */,
+				5AC4E22524018EE00044F337 /* SearchCityViewController.swift in Sources */,
 				5AA85D24240177C50094BC4F /* AppDelegate.swift in Sources */,
+				5AC4E22324018E7B0044F337 /* WeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
