@@ -14,6 +14,8 @@
 		5AC4E221240186B60044F337 /* sofiapro-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4E220240186B60044F337 /* sofiapro-light.otf */; };
 		5AC4E22324018E7B0044F337 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E22224018E7B0044F337 /* WeatherViewController.swift */; };
 		5AC4E22524018EE00044F337 /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E22424018EE00044F337 /* SearchCityViewController.swift */; };
+		5AC4E22B240193070044F337 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E229240193070044F337 /* UIColor+Hex.swift */; };
+		5AC4E22C240193070044F337 /* UIColor+weathercolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4E22A240193070044F337 /* UIColor+weathercolor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5AC4E220240186B60044F337 /* sofiapro-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofiapro-light.otf"; sourceTree = "<group>"; };
 		5AC4E22224018E7B0044F337 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		5AC4E22424018EE00044F337 /* SearchCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
+		5AC4E229240193070044F337 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		5AC4E22A240193070044F337 /* UIColor+weathercolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+weathercolor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		5AA85D22240177C50094BC4F /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				5AC4E226240191C80044F337 /* Service */,
 				5AA85D3C240183340094BC4F /* Assets */,
 				5AA85D39240182830094BC4F /* View */,
 				5AA85D38240182570094BC4F /* Viewmodel */,
@@ -124,6 +129,31 @@
 				5AC4E220240186B60044F337 /* sofiapro-light.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		5AC4E226240191C80044F337 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5AC4E227240191D90044F337 /* Extension */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5AC4E227240191D90044F337 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AC4E2282401922D0044F337 /* UIColor */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5AC4E2282401922D0044F337 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				5AC4E229240193070044F337 /* UIColor+Hex.swift */,
+				5AC4E22A240193070044F337 /* UIColor+weathercolor.swift */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC4E22524018EE00044F337 /* SearchCityViewController.swift in Sources */,
+				5AC4E22B240193070044F337 /* UIColor+Hex.swift in Sources */,
+				5AC4E22C240193070044F337 /* UIColor+weathercolor.swift in Sources */,
 				5AA85D24240177C50094BC4F /* AppDelegate.swift in Sources */,
 				5AC4E22324018E7B0044F337 /* WeatherViewController.swift in Sources */,
 			);
